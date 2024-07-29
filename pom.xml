@@ -82,4 +82,11 @@
       </plugins>
     </pluginManagement>
   </build>
+         <distributionManagement>
+                  <repository>
+                           <id>nexus</id>
+                           <name>Releases</name>
+                           <url>http://3.110.165.36:8081/repository/nexusapp/</url>
+                  </repository>
+         </distributionManagement>
 </project>
